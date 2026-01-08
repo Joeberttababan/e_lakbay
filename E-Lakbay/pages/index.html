@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>e-Lakbay</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="logo">e-Lakbay</div>
+
+        <!-- HAMBURGER BUTTON -->
+        <div class="hamburger" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Destination</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="../php/logIn.php">Log In</a></li>
+            <li><a href="../php/signIn.php">Sign In</a></li>
+        </ul>
+    </nav>
+
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="title">Explore</h1>
+            <h2 class="subtitle">2nd District of Ilocos Sur</h2>
+            <p class="tagline">“Explore, taste, and enjoy the culture of every town.”</p>
+        </div>
+        <div class="search-box">
+            <input type="text" placeholder="Search destinations, products, or towns..." />
+            <button type="submit">Search</button>
+        </div>
+
+        <!-- LOCATION CARDS -->
+        <div class="cards-container">
+            <div class="card">
+                <h3>Location</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Nullam in magna nulla. Quisque id pretium quam. Vivamus malesuada
+                    dignissim volutpat. Sed pulvinar tortor et lorem mattis placerat.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Location</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Nullam in magna nulla. Quisque id pretium quam. Vivamus malesuada
+                    dignissim volutpat. Sed pulvinar tortor et lorem mattis placerat.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Location</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Nullam in magna nulla. Quisque id pretium quam. Vivamus malesuada
+                    dignissim volutpat. Sed pulvinar tortor et lorem mattis placerat.
+                </p>
+            </div>
+        </div>
+
+        
+    </section>
+
+     <section class="top-destination">
+        <h2 class="section-title">Top Destination</h2>
+        <p class="section-sub">“Discover the heart of Ilocos Sur — where culture, nature, and history meet.”</p>
+
+        <div class="destination-scroll">
+            <img src="../assets/dest1.jpg" alt=""> <!-- the images here will come from the sorted algorithm-->
+            <img src="../assets//hills.jpg" alt="">
+            <img src="../assets//dest3.jpg" alt="">
+            <img src="../assets//mhall5.jpg" alt="">
+        </div>
+
+        <p class="more"><a href="#">Click Here to View More</a></p>
+    </section>
+
+    <!-- LOCAL PRODUCTS -->
+    <section class="local-products">
+        <h2 class="section-title">Municipalities</h2>
+        <p class="section-sub">“Discover Our wonderful Municipalities ”</p>
+
+        <div class="products-grid">
+            <div class="product"><img src="assets/empa.jpg"><p>Sta. Cruz</p></div>
+                <div class="product"><img src="assets/empa.jpg"><p>Sta. Maria</p></div>
+            <div class="product"><img src="assets/empa.jpg"><p>Candon</p></div>
+            <div class="product"><img src="assets/empa.jpg"><p>Gregorio Del Pilar</p></div>
+            <div class="product"><img src="assets/empa.jpg"><p>Alilem</p></div>
+            <div class="product"><img src="assets/empa.jpg"><p>Salcedo</p></div>
+            <div class="product"><img src="assets/empa.jpg"><p>San Emilio</p></div>
+            <div class="product"><img src="assets/empa.jpg"><p>Lidlidda</p></div>
+        </div>
+    </section>
+    <hr>
+
+    <!-- JAVASCRIPT FOR BURGER MENU -->
+    <script>
+        function toggleMenu() {
+            document.getElementById("navLinks").classList.toggle("active");
+            document.querySelector(".hamburger").classList.toggle("active");
+        }
+    </script>
+<footer class="footer">
+
+ <section class="about">
+        <h2 class="section-title">About Us</h2>
+        <p class="about-text">
+            “Discover the 2nd District of Ilocos Sur, where rich culture, scenic destinations, 
+            and heritage towns await. Experience the best of local products, crafts, and flavors 
+            while supporting community tourism.” 
+        </p>
+        <p style="background-color: rgb(26, 99, 182); padding:50px; color: aliceblue;">Presented by TechForge</p>
+ </section>
+  
+    </footer>
+
+</body>
+</html>
+
+
+
