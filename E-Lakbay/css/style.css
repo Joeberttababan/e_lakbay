@@ -27,7 +27,7 @@ body {
   color: white;
   text-decoration: none;
   font-weight: bold;
-  font-size: 3vh;
+  font-size: 1vw;
 }
 .logo{
   font-size: 7vh;
@@ -344,35 +344,35 @@ body {
   text-decoration: none;
 }
 
-.local-products {
+.municipalities {
   padding: 50px 5%;
   text-align: center;
 }
 
-.local-products .section-title {
+.municipalities .section-title {
   font-size: 2rem;
   font-weight: 700;
   color: #003c96;
 }
 
-.local-products .section-sub {
+.municipalities .section-sub {
   font-size: 1rem;
   color: #666;
   margin-bottom: 30px;
 }
 
 /* Grid Layout */
-.products-grid {
+.municipals-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
   gap: 30px;
   justify-items: center; /* center cards horizontally */
 }
 
-/* Product Card */
-.product {
-  background: white;
+/* municipals Card */
+.municipals {
   border-radius: 8px;
+  background:none !important ;
   min-width: none;
   max-width: 232vw;
   overflow: hidden;
@@ -382,7 +382,7 @@ body {
   cursor: pointer;
 }
 
-.product img {
+.municipals img {
   width: 400px;       /* smaller image on mobile */
   height: 120px;      /* fixed height for uniformity */
   object-fit: cover;
@@ -391,7 +391,7 @@ body {
   display: block;
 }
 
-.product p {
+.municipals p {
   margin-top: 12px;
   font-weight: 600;
   font-size: 1rem;
@@ -399,25 +399,25 @@ body {
 }
 
 /* Hover effect */
-.product:hover {
+.municipals:hover {
   transform: scale(1.05);
   box-shadow: 0 6px 15px rgba(0,0,0,0.15);
 }
 
 /* Responsive adjustments */
 @media (min-width: 00px) {
-  .product img {
+  .municipals img {
       width: 140px;
       height: 140px;
   }
 }
 
 @media (min-width: 900px) {
-  .products-grid {
+  .municipalss-grid {
       grid-template-columns: repeat(3, 1fr); /* 3 columns on large screens */
   }
 
-  .product img {
+  .municipals img {
       width: 160px;
       height: 160px;
   }

@@ -89,7 +89,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 <header class="navbar">
     <div class="logo">e-Lakbay</div>
     <nav>
-        <a href="../pages/index.html">Home</a>
+        <a href="../php/index.php">Home</a>
         <a href="">Destination</a>
         <a href="">Products</a>
         <a href="">Search</a>
